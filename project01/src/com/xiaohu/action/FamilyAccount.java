@@ -10,9 +10,11 @@ import com.xiaohu.util.FamilyAccountUtil;
 public class FamilyAccount {
     public static void main(String[] args) {
 
-        String details = "";
-        int balance = 100;
-        FamilyAccountUtil familyAccountUtil = new FamilyAccountUtil();
-        familyAccountUtil.operSelect(details,balance);
+//        String details = "";
+//        int balance = 100;
+//        FamilyAccountUtil familyAccountUtil = new FamilyAccountUtil();
+//        familyAccountUtil.operSelect(details,balance);
+        Integer[] customers = new Integer[10];
+        System.out.println(customers[0]);
     }
 }
